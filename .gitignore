@@ -16,3 +16,8 @@
 # Hyperledger fabric artifacts
 channel.tx
 genesis.block
+
+crypto-config/ordererOrganizations/*
+!crypto-config/ordererOrganizations/.keep
+crypto-config/ordererOrganizations/*
+crypto-config/ordererOrganizations/.keep

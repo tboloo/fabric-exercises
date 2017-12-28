@@ -19,5 +19,6 @@ genesis.block
 
 crypto-config/ordererOrganizations/*
 !crypto-config/ordererOrganizations/.keep
-crypto-config/ordererOrganizations/*
-crypto-config/ordererOrganizations/.keep
+crypto-config/peerOrganizations/*
+crypto-config/peerOrganizations/.keep
+node_modules/

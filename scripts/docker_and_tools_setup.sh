@@ -3,6 +3,9 @@
 # Copyright zeepeetek All Rights Reserved
 #
 
+# Exit on first error, print all commands.
+set -ev
+
 usage() { echo "Usage: $0 [-v|--version <fabric version>] [-c|--ca-version <fabric CA version>] [-i|--install-dir <install dir for platform tools>]" 1>&2; exit 0; }
 
 PARAMS=""
@@ -51,7 +54,8 @@ eval set -- "$PARAMS"
 CA_TAG=$MARCH-$CA_VERSION
 FABRIC_TAG=$MARCH-$VERSION
 
-echo "Creating installation directory for hyperledger tools"  
+echo "Installing platform specific tools version $VERSION in directory $INSTALL_DIR/$VERSION"
+
 mkdir -p $INSTALL_DIR/{$VERSION,bin}
 
 if [ "$?" -ne 0 ]; then
@@ -66,7 +70,9 @@ export PATH=$PATH:$INSTALL_DIR/bin
 echo "Pulling docker images"
 
 docker pull hyperledger/fabric-peer:$FABRIC_TAG
-docker tag hyperledger/fabric-peer:$FABRIC_TAG hyperledger/fabric-$IMAGES
-docker pull hyperledger/fabric-ca:$CA_TAG
-docker tag hyperledger/fabric-ca:$CA_TAG hyperledger/fabric-ca
+docker tag hyperledger/fabric-peer:$FABRIC_TAG hyperledger/fabric-peer
+docker pull hyperledger/fabric-tools:$FABRIC_TAG
+docker tag hyperledger/fabric-tools:$FABRIC_TAG hyperledger/fabric-tools
+# docker pull hyperledger/fabric-ca:$CA_TAG
+# docker tag hyperledger/fabric-ca:$CA_TAG hyperledger/fabric-ca
 

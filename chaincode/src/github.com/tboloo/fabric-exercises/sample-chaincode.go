@@ -31,7 +31,7 @@ func (t *SampleChaincode) Init(stub shim.ChaincodeStubInterface) peer.Response {
     if len(args) != 2 {
 		log.WithFields(log.Fields{
 			"args": args,
-		}).Error("Incorrect arguments. Expecting a key and a value")
+		}).Error("Incorrect arguments. Expecting a key and a value.")
         return shim.Error("Incorrect arguments. Expecting a key and a value")
     }
 
@@ -61,13 +61,13 @@ func (t *SampleChaincode) Invoke(stub shim.ChaincodeStubInterface) peer.Response
 	switch fn {
 		case "set":
 			log.WithFields(log.Fields{
-				"key":    true,
-				"value": 122,
+				"key":    args[0],
+				"value": args[1],
 			}).Info("Setting values in ledger")
 			result, err = set(stub, args)
 		case"get":
 			log.WithFields(log.Fields{
-				"key":    true,
+				"key":    args[0],
 			}).Info("Getting values from ledger")
 			result, err = get(stub, args)
 		default:

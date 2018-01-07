@@ -23,4 +23,5 @@ peerOrganizations/*
 peerOrganizations/.keep
 node_modules/
 pkg/
+!src/github.com/tboloo/
 src/

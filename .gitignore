@@ -24,4 +24,4 @@ peerOrganizations/.keep
 node_modules/
 pkg/
 chaincode/src/*
-!chaincode/src/github.com/tboloo/
+!chaincode/src/github.com/tboloo

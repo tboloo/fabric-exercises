@@ -65,7 +65,7 @@ func (t *SampleChaincode) Invoke(stub shim.ChaincodeStubInterface) peer.Response
 				"value": args[1],
 			}).Info("Setting values in ledger")
 			result, err = set(stub, args)
-		case"get":
+		case "get":
 			log.WithFields(log.Fields{
 				"key":    args[0],
 			}).Info("Getting values from ledger")

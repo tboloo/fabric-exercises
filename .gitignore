@@ -22,3 +22,5 @@ crypto-config/ordererOrganizations/*
 peerOrganizations/*
 peerOrganizations/.keep
 node_modules/
+pkg/
+src/

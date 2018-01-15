@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5dcc1115-09be-4407-80c7-5e06347a798e" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/crypto/myc.tx" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/crypto/orderer.block" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/networks/devmode/init.sh" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/networks/devmode/run_cli.sh" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/scripts/deploy_and_instantiate_chaincode.sh" />
       <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/chaincode/src/github.com/tboloo/fabric-exercises/sample-chaincode.go" afterPath="$PROJECT_DIR$/chaincode/src/github.com/tboloo/fabric-exercises/sample-chaincode.go" />
+      <change beforePath="$PROJECT_DIR$/networks/devmode/docker-compose.yaml" afterPath="$PROJECT_DIR$/networks/devmode/docker-compose.yaml" />
+      <change beforePath="$PROJECT_DIR$/scripts/install_caincode.cmd" afterPath="$PROJECT_DIR$/scripts/install_chaincode.cmd" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="sample-chaincode.go" pinned="false" current-in-tab="false">
+      <file leaf-file-name="sample-chaincode.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/chaincode/src/github.com/tboloo/fabric-exercises/sample-chaincode.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="64" column="24" lean-forward="false" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="24" />
+            <state relative-caret-position="17">
+              <caret line="72" column="16" lean-forward="false" selection-start-line="72" selection-start-column="16" selection-end-line="72" selection-end-column="16" />
               <folding>
                 <element signature="e#372#540#0" expanded="true" />
               </folding>
@@ -26,11 +34,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="docker-compose.yaml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/networks/devmode/docker-compose.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="26" column="32" lean-forward="true" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+            <state relative-caret-position="544">
+              <caret line="74" column="13" lean-forward="false" selection-start-line="52" selection-start-column="1" selection-end-line="74" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="init.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/networks/devmode/init.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="26" lean-forward="false" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".env" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/networks/devmode/.env">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="run_cli.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/networks/devmode/run_cli.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="65" lean-forward="false" selection-start-line="13" selection-start-column="65" selection-end-line="13" selection-end-column="65" />
               <folding />
             </state>
           </provider>
@@ -39,11 +77,19 @@
       <file leaf-file-name="sample-chaincode_test.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chaincode/src/github.com/tboloo/fabric-exercises/sample-chaincode_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
+            <state relative-caret-position="935">
               <caret line="59" column="26" lean-forward="false" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
-              <folding>
-                <element signature="e#14#95#0" expanded="true" />
-              </folding>
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="deploy_and_instantiate_chaincode.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/deploy_and_instantiate_chaincode.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="23" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -80,9 +126,15 @@
         <option value="$PROJECT_DIR$/chaincode/src/github.com/tboloo/fabric-exercises/simple=chaincode-test.go" />
         <option value="$PROJECT_DIR$/chaincode/src/github.com/tboloo/fabric-exercises/simple-chaincode-test.go" />
         <option value="$PROJECT_DIR$/chaincode/src/github.com/tboloo/fabric-exercises/sample-chaincode-test.go" />
-        <option value="$PROJECT_DIR$/chaincode/src/github.com/tboloo/fabric-exercises/sample-chaincode.go" />
         <option value="$PROJECT_DIR$/chaincode/src/github.com/tboloo/fabric-exercises/sample-chaincode_test.go" />
+        <option value="$PROJECT_DIR$/chaincode/src/github.com/tboloo/fabric-exercises/another-chaincode.go" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/chaincode/src/github.com/tboloo/fabric-exercises/sample-chaincode.go" />
+        <option value="$PROJECT_DIR$/scripts/deploy_and_instantiate_chaincode.sh" />
+        <option value="$PROJECT_DIR$/networks/devmode/init.sh" />
+        <option value="$PROJECT_DIR$/networks/devmode/docker-compose.yaml" />
+        <option value="$PROJECT_DIR$/networks/devmode/run_clish.sh" />
+        <option value="$PROJECT_DIR$/networks/devmode/run_cli.sh" />
       </list>
     </option>
   </component>
@@ -113,6 +165,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -140,13 +194,6 @@
               <item name="fabric-exercises" type="b2602c69:ProjectViewProjectNode" />
               <item name="fabric-exercises" type="462c0819:PsiDirectoryNode" />
               <item name="chaincode" type="462c0819:PsiDirectoryNode" />
-              <item name="pkg" type="462c0819:PsiDirectoryNode" />
-              <item name="windows_amd64" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fabric-exercises" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fabric-exercises" type="462c0819:PsiDirectoryNode" />
-              <item name="chaincode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -176,9 +223,7 @@
             <path>
               <item name="fabric-exercises" type="b2602c69:ProjectViewProjectNode" />
               <item name="fabric-exercises" type="462c0819:PsiDirectoryNode" />
-              <item name="chaincode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="gopkg.in" type="462c0819:PsiDirectoryNode" />
+              <item name="crypto" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="fabric-exercises" type="b2602c69:ProjectViewProjectNode" />
@@ -188,19 +233,18 @@
             <path>
               <item name="fabric-exercises" type="b2602c69:ProjectViewProjectNode" />
               <item name="fabric-exercises" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="networks" type="462c0819:PsiDirectoryNode" />
+              <item name="devmode" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/chaincode/src/github.com/tboloo/fabric-exercises" />
+    <property name="settings.editor.selected.configurable" value="reference.idesettings.emmet.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bin" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
@@ -209,9 +253,11 @@
     <property name="GO_FMT" value="false" />
     <property name="go.vendoring.notification.had.been.shown" value="true" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="NewWatcherDialog.advanced.open" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\bolek.tekielski\Documents\Development\go\fabric-exercises\crypto" />
       <recent name="C:\Users\bolek.tekielski\Documents\Development\go\fabric-exercises\chaincode\src\github.com\tboloo\fabric-exercises" />
       <recent name="C:\Users\bolek.tekielski\Documents\Development\go\fabric-exercises\networks\single_peer_single_orderer_one_organisation" />
       <recent name="C:\Users\bolek.tekielski\Documents\Development\go\fabric-exercises\networks\devmode" />
@@ -229,7 +275,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.chaincode-test">
+  <component name="RunManager" selected="Go Build.chaincode-cc">
+    <configuration name="chaincode-cc" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="fabric-exercises" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i --tags nopkcs11" />
+      <envs>
+        <env name="GOOS" value="linux" />
+        <env name="GOARCH" value="amd64" />
+      </envs>
+      <kind value="PACKAGE" />
+      <filePath value="C:\Users\bolek.tekielski\Documents\Development\go\fabric-exercises\chaincode\src\github.com\tboloo\fabric-exercises\sample-chaincode.go" />
+      <package value="github.com/tboloo/fabric-exercises" />
+      <directory value="$PROJECT_DIR$/" />
+      <output_directory value="C:\Users\bolek.tekielski\Documents\Development\go\fabric-exercises\bin" />
+      <option name="run" value="false" />
+    </configuration>
     <configuration name="chaincode" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="fabric-exercises" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -239,14 +300,6 @@
       <package value="main" />
       <directory value="C:\Users\bolek.tekielski\Documents\Development\go\fabric-exercises\chaincode\src\github.com\tboloo\fabric-exercises" />
       <output_directory value="C:\Users\bolek.tekielski\Documents\Development\go\fabric-exercises\bin" />
-    </configuration>
-    <configuration name="go build simple-chaincode-test.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
-      <module name="fabric-exercises" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <go_parameters value="-i --tags nopkcs11" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/chaincode/src/github.com/tboloo/fabric-exercises/simple-chaincode-test.go" />
-      <directory value="$PROJECT_DIR$/" />
     </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
       <module name="fabric-exercises" />
@@ -267,14 +320,25 @@
       <filePath value="$PROJECT_DIR$" />
       <pattern value="Test*" />
     </configuration>
-    <list size="3">
+    <configuration name="devmode" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="networks/devmode/docker-compose.yaml" />
+          <option name="startBrowserSettings">
+            <browser url="http://127.0.0.1" />
+          </option>
+        </settings>
+      </deployment>
+    </configuration>
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Go Build.chaincode" />
-      <item index="1" class="java.lang.String" itemvalue="Go Test.chaincode-test" />
-      <item index="2" class="java.lang.String" itemvalue="Go Build.go build simple-chaincode-test.go" />
+      <item index="1" class="java.lang.String" itemvalue="Go Build.chaincode-cc" />
+      <item index="2" class="java.lang.String" itemvalue="Go Test.chaincode-test" />
+      <item index="3" class="java.lang.String" itemvalue="Docker.devmode" />
     </list>
     <recent_temporary>
       <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Go Build.go build simple-chaincode-test.go" />
+        <item index="0" class="java.lang.String" itemvalue="Docker.devmode" />
       </list>
     </recent_temporary>
   </component>
@@ -282,9 +346,6 @@
     <option name="remove_strategy" value="false" />
   </component>
   <component name="TestHistory">
-    <history-entry file="chaincode-test - 2018.01.07 at 13h 16m 37s.xml">
-      <configuration name="chaincode-test" configurationId="GoTestRunConfiguration" />
-    </history-entry>
     <history-entry file="chaincode-test - 2018.01.07 at 13h 19m 02s.xml">
       <configuration name="chaincode-test" configurationId="GoTestRunConfiguration" />
     </history-entry>
@@ -310,6 +371,9 @@
       <configuration name="chaincode-test" configurationId="GoTestRunConfiguration" />
     </history-entry>
     <history-entry file="chaincode-test - 2018.01.07 at 15h 22m 52s.xml">
+      <configuration name="chaincode-test" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="chaincode-test - 2018.01.07 at 21h 04m 15s.xml">
       <configuration name="chaincode-test" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
@@ -355,13 +419,6 @@
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/chaincode/src/github.com/tboloo/fabric-exercises/sample-chaincode_test.go</url>
           <line>68</line>
-          <properties />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/chaincode/src/github.com/tboloo/fabric-exercises/sample-chaincode.go</url>
-          <line>73</line>
-          <properties />
-          <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="2" />
@@ -369,6 +426,92 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/chaincode/src/github.com/tboloo/fabric-exercises/sample-chaincode.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="72" column="16" lean-forward="false" selection-start-line="72" selection-start-column="16" selection-end-line="72" selection-end-column="16" />
+          <folding>
+            <element signature="e#372#540#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/networks/devmode/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/deploy_and_instantiate_chaincode.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/networks/devmode/docker-compose.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="20" lean-forward="false" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chaincode/src/github.com/tboloo/fabric-exercises/sample-chaincode.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="72" column="16" lean-forward="false" selection-start-line="72" selection-start-column="16" selection-end-line="72" selection-end-column="16" />
+          <folding>
+            <element signature="e#372#540#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/networks/devmode/docker-compose.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="901">
+          <caret line="53" column="6" lean-forward="false" selection-start-line="53" selection-start-column="6" selection-end-line="53" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/deploy_and_instantiate_chaincode.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chaincode/src/github.com/tboloo/fabric-exercises/sample-chaincode.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="72" column="16" lean-forward="false" selection-start-line="72" selection-start-column="16" selection-end-line="72" selection-end-column="16" />
+          <folding>
+            <element signature="e#372#540#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/networks/devmode/docker-compose.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="901">
+          <caret line="53" column="6" lean-forward="false" selection-start-line="53" selection-start-column="6" selection-end-line="53" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/deploy_and_instantiate_chaincode.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/chaincode/src/github.com/tboloo/fabric-exercises/sample-chaincode.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -383,7 +526,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="24" column="4" lean-forward="false" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -391,9 +533,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-          <folding>
-            <element signature="e#14#95#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -479,7 +619,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/install_caincode.cmd">
+    <entry file="file://$PROJECT_DIR$/scripts/install_chaincode.cmd">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -493,24 +633,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/networks/devmode/docker-compose.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="84" column="10" lean-forward="false" selection-start-line="84" selection-start-column="10" selection-end-line="84" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bin/.keep">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/networks/devmode/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -532,35 +658,72 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="119" column="22" lean-forward="false" selection-start-line="119" selection-start-column="22" selection-end-line="119" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chaincode/src/github.com/tboloo/fabric-exercises/another-chaincode.go" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/networks/devmode/init.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="26" lean-forward="false" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/deploy_and_instantiate_chaincode.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/networks/devmode/docker-compose.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="74" column="13" lean-forward="false" selection-start-line="52" selection-start-column="1" selection-end-line="74" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/networks/devmode/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/networks/devmode/run_cli.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="65" lean-forward="false" selection-start-line="13" selection-start-column="65" selection-end-line="13" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chaincode/src/github.com/tboloo/fabric-exercises/sample-chaincode_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="59" column="26" lean-forward="false" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chaincode/src/github.com/tboloo/fabric-exercises/sample-chaincode.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="64" column="24" lean-forward="false" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="24" />
+        <state relative-caret-position="17">
+          <caret line="72" column="16" lean-forward="false" selection-start-line="72" selection-start-column="16" selection-end-line="72" selection-end-column="16" />
           <folding>
             <element signature="e#372#540#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chaincode/src/github.com/tboloo/fabric-exercises/sample-chaincode_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="59" column="26" lean-forward="false" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
-          <folding>
-            <element signature="e#14#95#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="26" column="32" lean-forward="true" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>

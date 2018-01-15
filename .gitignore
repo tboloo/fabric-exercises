@@ -13,15 +13,12 @@
 # Project-local glide cache, RE: https://github.com/Masterminds/glide/issues/736
 .glide/
 
-# Hyperledger fabric artifacts
-channel.tx
-genesis.block
-
 crypto-config/ordererOrganizations/*
 !crypto-config/ordererOrganizations/.keep
 peerOrganizations/*
 peerOrganizations/.keep
 node_modules/
 pkg/
-chaincode/src/*
-!chaincode/src/github.com/tboloo
+**/src/*
+!**/src/github.com/tboloo
+workspace.xml

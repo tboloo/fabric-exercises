@@ -135,7 +135,9 @@ func main() {
 	log.SetOutput(os.Stdout)
     err := shim.Start(new(SampleChaincode))
     if err != nil {
-    	log.Fatal("Could not start SimpleChaincode.")
+    	log.WithFields(log.Fields{
+			"error":err.Error(),
+		}).Fatal("Could not start SimpleChaincode.")
     } else {
     	log.Info("SampleChaincode successfully started.")
     }

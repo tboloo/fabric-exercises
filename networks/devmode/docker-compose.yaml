@@ -50,6 +50,26 @@ services:
     depends_on:
       - orderer
 
+  explorer:
+    networks:
+      - devmode
+    container_name: explorer
+    image: blockchain-explorer:local
+    environment:
+      - DB_HOST=127.0.0.1
+      - DB_PASSWORD=123456
+      - CHANNEL_NAME=myc
+      - PEER_LISTEN_ADDRESS=peer:7051
+      - PEER_EVENT_SEVICE_ADDRESS=peer:7053
+      - PEER_HOSTNAME=peer
+      - CACERT_PATH=/msp/cacerts/cacert.pem
+      - ADMIN_KEYSTORE_PATH=/msp/keystore
+      - ADMIN_CERTFILE_PATH=/msp/signcerts
+    volumes:
+      - /c/Users/bolek.tekielski/Documents/Developmennt/go/fabric-exercises/msp:/opt/blockchain-explorer/msp
+    ports:
+      - 8080:8080
+
 #  cli:
 #    networks:
 #      - devmode

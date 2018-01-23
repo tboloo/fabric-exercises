@@ -58,6 +58,7 @@ func TestSampleChaincode_GettingState(t *testing.T) {
 }
 
 func TestSampleChaincode_NotImplementedFunction(t *testing.T) {
+	//swallow Panic
 	defer func() {
 		if r := recover();
 		 r == nil {

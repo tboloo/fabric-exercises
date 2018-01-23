@@ -19,7 +19,12 @@ peerOrganizations/*
 peerOrganizations/.keep
 node_modules/
 pkg/
-!src/
-src/*
-!**/src/github.com/tboloo
+
+.idea/*
 workspace.xml
+
+!src/github.com/
+src/github.com/**
+!src/github.com/tboloo/**
+
+src/
